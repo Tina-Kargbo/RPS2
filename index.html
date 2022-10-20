@@ -17,9 +17,9 @@
     <section class="game-area">
         <div>
             <h2>Please Choose!</h2>
-            <button id="Rock" data-choice="0" class="control">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
-            <button id="Paper" data-choice="1" class="control">Paper<i class="fa-solid fa-hand"></i></button>
-            <button id="Scissors" data-choice="2" class="control">Scissors<i class="fa-solid fa-hand-scissors"></i></button>
+            <button aria-label="Rock" data-choice="0" class="control">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper<i class="fa-solid fa-hand"></i></button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors<i class="fa-solid fa-hand-scissors"></i></button>
         </div>
         <div id="messages"></div>
         <div class="player">
@@ -33,13 +33,16 @@
             alt="Rock, Paper Scissors hand gestures"> 
         </div>
     </section>
-        
-   <footer>
+
+    <button aria-label="Reset" data-choice="3" class="control">Scissors</button>
+   
+    <footer>
         <h2>Game Rules</h2>
         <h3>Scissors can cut Paper / Paper can cover Rock / Rock can smash Scissors</h3>
    </footer>     
    
-   <script src="https://kit.fontawesome.com/bfe584297d.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/bfe584297d.js" crossorigin="anonymous"></script>
 </body>
 </html>
