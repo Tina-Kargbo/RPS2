@@ -62,7 +62,8 @@ footer {
 }
 
 #reset {
-    display: inline-block;
+    position: fixed;
+    margin-top: 205px;
 }
 
 .player {
