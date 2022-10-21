@@ -59,11 +59,12 @@ footer {
         width: 110px;
         height: 70px;
         font-size: medium;
+
 }
 
 #reset {
     position: fixed;
-    margin-top: 205px;
+    margin-top: 240px;
 }
 
 .player {

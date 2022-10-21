@@ -17,7 +17,7 @@
     <section class="game-area">
         <div>
             <h2>Please Choose!</h2>
-            <button aria-label="Rock" data-choice="0" class="control">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
+            <button aria-label="Rock" data-choice="0" class="control" id="rock-button">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
             <button aria-label="Paper" data-choice="1" class="control">Paper<i class="fa-solid fa-hand"></i></button>
             <button aria-label="Scissors" data-choice="2" class="control">Scissors<i class="fa-solid fa-hand-scissors"></i></button>
         </div>
@@ -34,8 +34,9 @@
         </div>
     </section>
 
-    <button aria-label="Reset" id= "reset">Reset</button>
-   
+    <button aria-label="Reset button" id= "reset" 
+    onclick= "window.location.href='https://8000-tinakargbo-rps2-ivh1935m7fs.ws-eu72.gitpod.io/';">Reset</button>
+    
     <footer>
         <h2>Game Rules</h2>
         <h3>Scissors can cut Paper / Paper can cover Rock / Rock can smash Scissors</h3>
