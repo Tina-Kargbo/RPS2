@@ -40,7 +40,7 @@
      computerImage.alt = computerChoice;
  
      let result = checkWinner(computerChoice, playerChoice);
- 
+
     }
      //     updateScores(result);
  
@@ -51,7 +51,5 @@
  function checkWinner(computerChoice, playerChoice){
      console.log(`User played ${playerChoice} vs Computer played ${computerChoice}`);
      computerScore = computerScore + 1;
-     playerScore = playerScore + 1;
      document.getElementById('computer-score').innerText = computerScore;
-     document.getElementById('player-score').innerText = playerScore;
  }
