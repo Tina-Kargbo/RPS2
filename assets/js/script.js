@@ -6,6 +6,7 @@
  const playerImage = document.getElementById('player-image');
  const computerImage = document.getElementById('computer-image');
  let computerScore = 0;
+ let playerScore = 0;
  // const buttons = document.getElementsById("player-score");
  // const buttons = document.getElementsById("computer-score");
  // const buttons = document.getElementsById("player-image");
@@ -40,8 +41,9 @@
  
      let result = checkWinner(computerChoice, playerChoice);
  
- //     updateScores(result);
- }
+    }
+     //     updateScores(result);
+ 
  
  /**
   * Checks to see who the winner is, it accepts two strings as
@@ -49,5 +51,7 @@
  function checkWinner(computerChoice, playerChoice){
      console.log(`User played ${playerChoice} vs Computer played ${computerChoice}`);
      computerScore = computerScore + 1;
+     playerScore = playerScore + 1;
      document.getElementById('computer-score').innerText = computerScore;
+     document.getElementById('player-score').innerText = playerScore;
  }
